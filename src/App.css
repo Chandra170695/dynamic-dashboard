@@ -4,6 +4,58 @@
 
 .chart
 {
-  width: 1000px;
-  height:500px
+  margin-top:30px;
+  width: 50vw;
+  height:50vh;
+}
+
+/* Container for the header */
+#HeaderContainer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #e9ecef;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Styling for the main header */
+.header {
+  font-size: 2.5rem;
+  color: #343a40;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+/* Styling for the paragraph */
+.para {
+  font-size: 1.2rem;
+  color: #6c757d;
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Styling for select dropdown */
+.select-dropdown {
+  font-size: 1rem;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #495057;
+  width: 100%;
+  max-width: 300px; /* Adjust max-width as needed */
+  cursor: pointer;
+ 
+}
+
+/* Styling for options inside the dropdown */
+.select-dropdown option {
+  font-size: 1rem;
+  padding: 10px;
+  background-color: #fff;
+  color: #495057;
 }
