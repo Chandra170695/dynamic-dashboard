@@ -2,12 +2,19 @@
   text-align: center;
 }
 
-.chart
-{
-  margin-top:30px;
-  width: 50vw;
-  height:50vh;
+.chart {
+  margin-top: 30px;
+  width: 80vw; /* Default width for mobile */
+  height: 40vh; /* Default height for mobile */
 }
+
+@media (min-width: 768px) {
+  .chart {
+    width: 50vw; /* Adjusted width for desktop */
+    height: 50vh; /* Adjusted height for desktop */
+  }
+}
+
 
 /* Container for the header */
 #HeaderContainer {
@@ -58,4 +65,16 @@
   padding: 10px;
   background-color: #fff;
   color: #495057;
+}
+
+.parentDiv {
+  /* Default styles (not flex) */
+}
+
+@media (min-width: 768px) {
+  .parentDiv {
+    display: flex;
+    align-items: center;
+    /* Additional styles for flex layout */
+  }
 }
