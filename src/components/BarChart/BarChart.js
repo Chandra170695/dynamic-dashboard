@@ -21,10 +21,10 @@ const CustomLineChart = ({ data,filter }) => (
     <YAxis />
     <Tooltip />
     <Legend />
-    {(filter=="all" ||filter=="open") && <Line type="monotone" dataKey="open" stroke="#8884d8" activeDot={{ r: 8 }} />}
-    {(filter=="all" ||filter=="high") && <Line type="monotone" dataKey="high" stroke="#82ca9d" />}
- {(filter=="all" ||filter=="low") && <Line type="monotone" dataKey="low" stroke="#ff6347" />}
- {(filter=="all" ||filter=="close") && <Line type="monotone" dataKey="close" stroke="#ffc658" />}
+    {(filter==="all" ||filter==="open") && <Line type="monotone" dataKey="open" stroke="#8884d8" activeDot={{ r: 8 }} />}
+    {(filter==="all" ||filter==="high") && <Line type="monotone" dataKey="high" stroke="#82ca9d" />}
+ {(filter==="all" ||filter==="low") && <Line type="monotone" dataKey="low" stroke="#ff6347" />}
+ {(filter==="all" ||filter==="close") && <Line type="monotone" dataKey="close" stroke="#ffc658" />}
 
   </LineChart>
 </ResponsiveContainer></>
